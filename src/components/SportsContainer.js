@@ -1,9 +1,8 @@
-import { useState, useEffect } from 'react'
+import { useEffect } from 'react'
 
 import SportCard from "./SportCard"
 
-function SportsContainer() {
-    const [ sports, setSports ] = useState([])
+function SportsContainer({ sports, setSports }) {
 
     useEffect(() => {
         fetch('http://localhost:3001/sports')
