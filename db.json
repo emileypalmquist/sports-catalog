@@ -1,0 +1,19 @@
+{
+    "sports": [
+        {
+            "name": "Golf"
+        },
+        {
+            "name": "Soccer"
+        },
+        {
+            "name": "Footbal"
+        },
+        {
+            "name": "Hockey"
+        },
+        {
+            "name": "Tennis"
+        }
+    ]
+}
